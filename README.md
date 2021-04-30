@@ -1,11 +1,12 @@
 This is a sample project page to demonstrate using Amazon S3 as a web hosting solution for a static site. 
 
 
-###Bucket Policy:
+#### Bucket Policy:
 
 Below is the bucket polciy we will be using to allow our S3 bucket objects to be accessible. Be sure to change Bucket-Name to match the name of your bucket in the policy below:
 
-```{
+```
+{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -20,23 +21,12 @@ Below is the bucket polciy we will be using to allow our S3 bucket objects to be
             ]
         }
     ]
-}```
+}
+
+```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Credits:
+#### Credits:
 
 	Background Image:
 		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
